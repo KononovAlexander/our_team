@@ -105,9 +105,11 @@ body {
 		margin: 0;
 		line-height: 1.2;
 	}
+
 	.slider {
 		
 		position:relative;
+
 		
 		&__arrow {
 
@@ -144,20 +146,22 @@ body {
 
 		
 		&__dots {
+		
             font-size: 0;
 			padding: 0;
 			margin: 20px;
 			text-align: center;
-			margin:0;
+
 		}
 		li{
 
             display: inline-block;
+          
 		}
 		button{
 			display: inline-block;
 			padding: 0;
-			border:1px solid $primary-color;
+			border: 1px solid $primary-color;
 			height: 13px;
 			width: 13px;
 			margin: 5px;
@@ -168,11 +172,14 @@ body {
 			&:active {
 
 				background-color: #fff;
+				outline: none;
 			}
 
 		}
 		&.slick-active button{
 			background-color: #fff;
+			
+			
 		}
 
 	 }
